@@ -6,17 +6,14 @@ html {
     #171717 0%,
     rgba(0, 0, 0, 0.9) 100%
   );
+  margin: 0;
+  moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  webkit-font-smoothing: antialiased;
 }
 
 h1 {
   color: #f5f5f5;
-}
-
-body {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  margin: 0;
-  padding: 0;
 }
 
 .App {
@@ -29,14 +26,14 @@ body {
 .drum-pad {
   align-items: center;
   background-color: #e5e5e5;
-  border-radius: 0.25rem; /* 4px */
+  border-radius: 0.25rem;
   box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   display: flex;
-  font-size: 2.25rem; /* 36px */
-  height: 6rem; /* 96px */
+  font-size: 2.25rem;
+  height: 6rem;
   justify-content: center;
-  line-height: 2.5rem; /* 40px */
-  width: 6rem; /* 96px */
+  line-height: 2.5rem;
+  width: 6rem;
 }
 
 .playing {
@@ -45,55 +42,52 @@ body {
 
 #display {
   background: #404040;
-  border-radius: 1rem; /* 16px */
+  border-radius: 1rem;
   box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   color: #f5f5f5;
-  font-size: 1.25rem; /* 20px */
-  line-height: 1.75rem; /* 28px */
-  padding: 1rem; /* 16px */
-  width: 10rem; /* 160px */
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding: 1rem;
+  width: 10rem;
 }
 
 #drum-container {
   background: #737373;
-  border-radius: 1.5rem; /* 24px */
+  border-radius: 1.5rem;
   display: grid;
-  grid-gap: 0.625rem; /* 10px */
+  grid-gap: 0.625rem;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   justify-content: center;
-  margin: 3rem; /* 48px */
-  padding: 1.5rem; /* 24px */
+  margin: 3rem;
+  padding: 1.5rem;
 }
 
 #drum-machine {
   align-items: center;
-  border-radius: 1.5rem; /* 24px */
+  border-radius: 1.5rem;
   display: flex;
   margin: 0 auto;
-  padding: 1.25rem; /* 20px */
+  padding: 1.25rem;
   width: 40rem;
 }
 
-/* ----------- iPhone 4, 4S ----------- */
-
-/* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
   .drum-pad {
-    font-size: 0.75rem; /* 12px */
-    height: 1.25rem; /* 20px */
+    font-size: 0.75rem;
+    height: 1.25rem;
     justify-content: center;
-    line-height: 1rem; /* 16px */
-    width: 1.25rem; /* 20px */
+    line-height: 1rem;
+    width: 1.25rem;
   }
 
   #drum-machine {
-    padding: 0.125rem; /* 2px */
-    width: 24rem; /* 384px */
+    padding: 0.125rem;
+    width: 24rem;
   }
 
   #display {
-    font-size: 0.75rem; /* 12px */
-    line-height: 1rem; /* 16px */
-    width: 3rem; /* 48px */
+    font-size: 0.75rem;
+    line-height: 1rem;
+    width: 3rem;
   }
 }
