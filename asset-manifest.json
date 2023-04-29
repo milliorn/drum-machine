@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.22f5d8aa.css",
-    "main.js": "/react-gh-pages/static/js/main.7d9d4668.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.22f5d8aa.css.map": "/react-gh-pages/static/css/main.22f5d8aa.css.map",
-    "main.7d9d4668.js.map": "/react-gh-pages/static/js/main.7d9d4668.js.map"
+    "main.css": "/drum-machine/static/css/main.22f5d8aa.css",
+    "main.js": "/drum-machine/static/js/main.7d9d4668.js",
+    "index.html": "/drum-machine/index.html",
+    "main.22f5d8aa.css.map": "/drum-machine/static/css/main.22f5d8aa.css.map",
+    "main.7d9d4668.js.map": "/drum-machine/static/js/main.7d9d4668.js.map"
   },
   "entrypoints": [
     "static/css/main.22f5d8aa.css",
