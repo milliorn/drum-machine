@@ -1,8 +1,10 @@
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="drum-machine">
+      <h1>Drum Machine</h1>
+      <div id="display"></div>
     </div>
   );
 }
