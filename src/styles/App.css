@@ -22,8 +22,8 @@ body {
 .App {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: bold;
-  text-align: center;
   overflow: hidden;
+  text-align: center;
 }
 
 .drum-pad {
@@ -66,12 +66,12 @@ body {
 }
 
 #drum-machine {
+  align-items: center;
+  border-radius: 1.5rem; /* 24px */
+  display: flex;
   margin: 0 auto;
   padding: 1.25rem; /* 20px */
-  display: flex;
-  align-items: center;
   width: 40rem;
-  border-radius: 1.5rem; /* 24px */
 }
 
 /* ----------- iPhone 4, 4S ----------- */
