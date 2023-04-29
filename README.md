@@ -1,8 +1,14 @@
-# Getting Started with Create React App
+# Build a Drum Machine
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Challenge
+
+https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-drum-machine
+
+### Objective: Build an app that is functionally similar to this: https://drum-machine.freecodecamp.rocks/.
 
 ## Source
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
 <https://create-react-app.dev/>
 
