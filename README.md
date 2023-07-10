@@ -8,6 +8,41 @@
 
 Build an app that is functionally similar to this: [https://drum-machine.freecodecamp.rocks/](https://drum-machine.freecodecamp.rocks/).
 
+## Features
+
+- Interactive drum pads that produce different sounds when clicked or pressed
+- Volume control for adjusting the sound level
+- Display of the current sound being played
+- Keyboard support for playing sounds
+
+## Technologies Used
+
+- React: JavaScript library for building user interfaces
+- HTML: Markup language for structuring the web page
+- CSS: Styling language for designing the user interface
+
+## Getting Started
+
+To run the drum machine locally, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/milliorn/drum-machine.git`
+2. Navigate to the project directory: `cd drum-machine`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the drum machine.
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please create an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+## Acknowledgements
+
+The drum machine project is part of the freeCodeCamp curriculum. Special thanks to freeCodeCamp for providing the project specifications and resources.
+
 ## Source
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
